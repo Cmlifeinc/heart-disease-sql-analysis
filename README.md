@@ -1,7 +1,7 @@
 # Heart Disease SQL Analysis
 
 ## Project Overview
-This project explores a heart disease dataset using SQL to understand key risk factors associated with cardiovascular disease. The analysis follows a structured, end-to-end workflow including schema inspection, data quality validation, exploratory data analysis, and the creation of an interpretable risk scoring model.
+This project explores a heart disease dataset using SQL and Python to understand key risk factors associated with cardiovascular disease. The analysis follows a structured, end-to-end workflow including schema inspection, data quality validation, exploratory data analysis, and the creation of an interpretable risk scoring model.
 
 The goal of this project is to demonstrate analytical thinking, SQL proficiency, and the ability to extract meaningful insights from real-world health data.
 
@@ -97,6 +97,7 @@ This demonstrates that a small number of interpretable features can effectively 
 ## Tools Used
 - **SQLite**
 - **SQL**
+- **Python (Pandas, Matplotlib)**
 - **VS Code**
 - **Git & GitHub**
 
