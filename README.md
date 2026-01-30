@@ -49,6 +49,30 @@ Key findings:
 
 ---
 
+## Visualizations (Python)
+
+To complement the SQL-based analysis, Python was used to visualize key patterns identified during exploratory analysis. Pandas was used for data manipulation and Matplotlib for visualization, with results saved directly to the repository for reproducibility.
+
+### Heart Disease Presence Rate by Age Band
+This chart visualizes the proportion of patients with heart disease across defined age groups.
+
+![Presence Rate by Age Band](output/presence_rate_by_age_band.png)
+
+**Insight:**  
+Heart disease prevalence increases steadily with age, with a pronounced rise beginning in the 50–59 age group and peaking among patients aged 60–69. This reinforces the age-related trends observed in the SQL analysis.
+
+---
+
+### Heart Disease Presence Rate by Sex
+This chart compares heart disease prevalence between the two encoded sex groups.
+
+![Presence Rate by Sex](output/presence_rate_by_sex.png)
+
+**Insight:**  
+One sex group exhibits more than double the heart disease prevalence compared to the other, consistent with the statistical differences identified during exploratory analysis.
+
+---
+
 ### 4. Risk Analysis (`04_risk_analysis.sql`)
 A simple, rule-based risk score was constructed using five interpretable clinical factors:
 
